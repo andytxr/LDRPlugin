@@ -34,7 +34,7 @@ public class CommandBlessed implements CommandExecutor {
         if(sender instanceof Player)
         {
             Random random = new Random();
-            ItemStack[] item = new ItemStack[] {new ItemStack(Material.ANVIL), new ItemStack(Material.BEDROCK), new ItemStack(Material.DIAMOND_BLOCK), new ItemStack(Material.GHAST_TEAR), new ItemStack(Material.WHITE_BED), new ItemStack(Material.COAL), new ItemStack(Material.BAKED_POTATO), new ItemStack(Material.CHAINMAIL_CHESTPLATE), new ItemStack(Material.OAK_BOAT), new ItemStack(Material.END_STONE_BRICKS), new ItemStack(Material.OAK_SIGN)};
+            ItemStack[] item = new ItemStack[] {new ItemStack(Material.ANVIL), new ItemStack(Material.BEDROCK), new ItemStack(Material.DIAMOND_BLOCK), new ItemStack(Material.GHAST_TEAR), new ItemStack(Material.WHITE_BED), new ItemStack(Material.COAL), new ItemStack(Material.BAKED_POTATO), new ItemStack(Material.CHAINMAIL_CHESTPLATE), new ItemStack(Material.OAK_BOAT), new ItemStack(Material.STONE), new ItemStack(Material.OAK_SIGN)};
             p.getInventory().addItem(item[random.nextInt(item.length-1)]);
             p.sendMessage(ChatColor.DARK_AQUA+"A sua bencao foi dada! Agradeca a Lana!");
         }

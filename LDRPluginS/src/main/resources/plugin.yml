@@ -1,6 +1,6 @@
 name: LDRPluginS
 version: 1.1.6
-main: andytxr.ldrplugins.LDRPluginS
+main: andytxr.ldrplugins._DelReyPlugin
 api-version: 1.13
 author: andytxr_
 
